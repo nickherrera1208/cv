@@ -1,0 +1,70 @@
+body{font-family: "montserrat";text-align: center;}
+
+h1, h2, h3, h4, h5, h6{font-family: "Montserrat";font-weight: bold;}
+
+p{color:#8f8f8f}
+
+/* Headings */
+
+.big-heading{font-family: "Montserrat"; font-size: 4rem; line-height: 1.5; font-weight:900;}
+
+#section-heading{padding-top: 50px;font-size: 3rem;line-height: 1.5;}
+
+/* Container  */
+
+.container-fluid{padding:7% 15%;}
+
+/* Navigation Bar  */
+
+.navbar-brand{color: white; font-size: 2.5rem; font-weight: 600; }
+.navbar{margin-bottom: 125px;}
+.nav-item{padding:20px;}
+.nav-link{color:lightgrey; font-size: 1.2rem; font-family: "montserrat-light";}
+.btn{margin-top: 20px; margin-left: 10px;}
+
+/* Title  */
+
+#title{background-color: #ff4c68; color:white; font-family: "Ubuntu";position:relative; text-align: left;}
+
+#phone{transform: rotate(25deg); width:50%;position:absolute;}
+
+/* #title .container-fluid{padding: 3% 7% 15%;} */
+
+/* Features */
+
+#features{background-color: #fff;position:relative;}
+.col-lg-4{padding:6%}
+.new{margin-bottom: 1rem;color:#ef8172}
+.new:hover{color:#ff4c68;}
+.feature-title{font-size: 1.5rem;}
+
+/* Testimonials*/
+
+#testimonials{ background-color: #ef8172;color:white ;position:relative}
+.beans{width:20%; border-radius: 20%;margin: 20px;}
+#press{background-color: #ef8172;padding-bottom: 3%;}
+.press-img{width:8%;margin:20px 50px 50px}
+.charleen{width:20%}
+.testimonial-text{font-size: 3rem;line-height: 1.5;}
+
+ /* Pricing */
+
+.sign-up{width:50%;}
+.pc{padding:3% 2%}
+.price-text{font-size: 3rem;line-height: 1.5;}
+
+.parent-phone-div{position:relative;bottom:50px}
+.phone-div{position:relative;}
+
+/* CTA Section */
+#cta{background-color: #ff4c68;font-family: "Montserrat";color:white;font-weight: bold;padding: 7% 15%;}
+#last-h3{font-size: 2.5rem;}
+.last-btn{position: relative; }
+#footer{padding-top:100px;padding-bottom: 25px;}
+.brands{position:relative;padding-bottom: 5px;padding-left: 20px; color:gray;right: 10px;}
+
+@media (max-width:1000px) {#phone{position:relative;;transform: rotate(0);padding-top:50px;width:60%;right: 35%;}
+                           #title{text-align:center}
+                        }
+                    
+
